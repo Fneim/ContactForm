@@ -1,0 +1,72 @@
+body {
+  height:100%;
+  width:100%;
+  padding:0;
+  background:#d55;
+}
+
+.contentContainer {
+  height:100%;
+  margin:auto;
+}
+
+#name, #email, #msg{
+  margin:5px;
+  width:300px;
+}
+
+#msg {
+  height:150px;
+  margin:0;
+}
+
+#btnContainer {
+  margin:auto;
+}
+
+#submitBtn {
+  background: #5c1349;
+  color:#fff;
+}
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      
+      #name, #email, #msg {
+        width:200px;;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    
+      #name, #email, #msg {
+        width:300px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+      #btnContainer {
+        text-align:center;
+      }
+
+      #name, #email, #msg {
+        width:400px;;
+      }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+      #btnContainer {
+        text-align:center;
+      }
+
+      #name, #email, #msg {
+        width:400px;
+      }
+    }
+
+
